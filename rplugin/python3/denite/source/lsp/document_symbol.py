@@ -53,12 +53,13 @@ class Source(Base):
             col = item["col"]
             lnum = item["lnum"]
             line = self.vim.call('getline', lnum)
-            word = "{:>4}{:>4} {}    {}".format(
+            abbr = "{:>4}{:>4} {}    {}".format(
                 str(lnum), str(col), item["text"], line
             )
             candidates.append(
                 {
-                    "word": word,
+                    "word": item['text'],
+                    "abbr": abbr,
                     "action__path": path,
                     "action__line": lnum,
                     "action__col": col,
