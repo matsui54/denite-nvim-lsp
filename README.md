@@ -2,10 +2,10 @@
 denite source for Neovim builtin LSP client
 
 ## sources
-### lsp/diagnostics_buffer
+### lsp/diagnostic_buffer
 Shows diagnostics from all clients attached to Neovim.
 ![2021-03-24_18-01](https://user-images.githubusercontent.com/63794197/112283448-81de2080-8ccb-11eb-9a34-124fa1a98a9a.png)
-### lsp/diagnostics_all
+### lsp/diagnostic_all
 Shows diagnostics from client attached to current buffer.
 ![2021-03-24_18-02](https://user-images.githubusercontent.com/63794197/112283454-830f4d80-8ccb-11eb-8d79-b8a33dba4d89.png)
 ### lsp/workspace_symbol
